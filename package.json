@@ -9,11 +9,16 @@
     "react-scripts": "4.0.1",
     "reactstrap": "^8.7.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "lint": "eslint ./",
     "eject": "react-scripts eject"
   },
   "browserslist": {
