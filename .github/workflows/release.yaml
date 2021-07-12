@@ -38,6 +38,6 @@ jobs:
         with:
           workflow: local release
           token: ${{ secrets.INFRASTRUCTURE_TOKEN }}
-          repo: ${{ env.INFRASTRUCTURE_TOKEN }}
+          repo: ${{ env.INFRASTRUCTURE_REPO }}
           inputs: '{"service_image_name":"${{ env.IMAGE }}", "registry_url":"${{ env.REGISTRY }}", "tag":"${{ github.sha }}"}'
 
