@@ -87,12 +87,12 @@ class App extends Component {
     return (
       <Container fluid className="centered">
         <Navbar dark color="dark">
-          <NavbarBrand href="/">MyWeather</NavbarBrand>
+          <NavbarBrand href="/">OurWeather</NavbarBrand>
         </Navbar>
         <Row>
           <Col>
             <Jumbotron>
-              <h1 className="display-3">MyWeather</h1>
+              <h1 className="display-3">OurWeather</h1>
               <p className="lead">The current weather for your favorite cities!</p>
               <InputGroup>
                 <Input 
